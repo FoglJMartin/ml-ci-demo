@@ -2,5 +2,5 @@
 
 
 def tokenize_text(text: str) -> list[str]:
-    """Split text into whitespace-separated tokens."""
-    return text.split()
+    """Convert text to lowercase whitespace-separated tokens."""
+    return text.lower().split()
